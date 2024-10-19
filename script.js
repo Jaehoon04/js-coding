@@ -1,2 +1,1 @@
-alert("Hello")
-alert("world!")
+alert("박수빈 사랑해")
