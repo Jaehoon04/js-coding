@@ -3,20 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>if-else</title>
     <a href="style.css"></a>
 </head>
 <body>
-    <h1>Hello</h1>
-    <h2>World</h2>
-    <h3>Hello javascript</h3>
-    <h4>Good</h4>
+<h3>if-else를 이용한 학점 매기기</h3>
+<hr>
+<script>
+    let grade;
+    let score = prompt("황기태 님 점수를 입력하세요",100)
+    score = parseInt(score); //문자열을 숫자로 바꿈
+    if(score >= 90){
+        grade = "A";
+    }
+    else if(score>=80){
+        grade = "B";
+    }
+    else if(score>=70){
+        grade = "C";
+    }
+    else if(score>=60){
+        grade = "D";
+    }
+    else
+        grade = "F";
+    document.write(score + "는" + grade + "입니다.<br>")
+    
+</script>
 
-    <ul>
-        <li>Oh</li>
-        <li>my</li>
-        <li>got</li>
-    </ul>
+<br>
+
     
     <a href="https://www.notion.so/2b3780eb962f4a5593a3b7d6e5f5fbe4">notion</a>
 </body>
