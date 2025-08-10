@@ -5,3 +5,5 @@
 ##### name - 메타요소의 정보 형태
 
 ##### content - 실제 메타데이터의 컨텐츠
+
+# https://www.notion.so/2b3780eb962f4a5593a3b7d6e5f5fbe4
